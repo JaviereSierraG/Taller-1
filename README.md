@@ -6,5 +6,7 @@ En este repositorio se documenta el desarrollo del primer taller realizado por J
 ![Texto alternativo](https://github.com/JaviereSierraG/Taller-1/blob/main/SCquiz.png)
 
 ## 2. Realice un programa que lea tres números reales y determine cuál es el mayor.
+### Contenido del Archivo
 
-[Abrir archivo](https://github.com/JaviereSierraG/Taller-1/blob/main/2)
+```python
+![Ver Archivo](https://raw.githubusercontent.com/JaviereSierraG/Taller-1/main/2)
