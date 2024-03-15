@@ -53,7 +53,21 @@ else:
 ```
 Creamos la entrada de tipo flotante para los dos número especificando su orden, nos volvemos a valer del módulo para conocer si la división del primer número entre el segundo deja algún residuo y así determinar si es múltiplo o no.
 
+## 5. Realice un programa que lea tres números reales y determine si la suma de los dos primeros es mayor, menor o igual que el tercer número.
+```python
+#Notebook
+numero1 = float(input("Ingrese el primer número: "))
+numero2 = float(input("Ingrese el segundo número: "))
+numero3 = float(input("Ingrese el tercer número: "))
 
+if numero1 + numero2 > numero3:
+  print(numero1, "+", numero2,"=", numero1 + numero2,  ">", numero3)
+elif numero1 + numero2 == numero3:
+  print(numero1, "+", numero2,"=", numero1 + numero2,  "=", numero3)
+else:
+  print( numero1, "+" ,numero2, "=", numero1 + numero2, "<", numero3)
+```
+Empezamos creando las entradas de tipo flotante para los 3 números, luego utilizamos las estructuras del control con condiciones especificas para en cada caso arrojar la salida correcta, tuvimos en cuenta también una posible igualdad aunque no se mencionara en el ejercicio. Asi teniendo 3 posibles resultado mayor que, menor que e igual.
 
 
 
