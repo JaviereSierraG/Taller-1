@@ -83,7 +83,51 @@ else:
 ```
 Para este ejercicio utilizamos una entrada de tipo cadena para garantizar la naturalidad de la respuesta, asi mismo utilizamos las vocales para descartar el resto de letras, asi pues asegurandonos que la entrada no sea ninguna de las 5 vocales, garantizamos que sea una consonante, o en su caso contrario confirmamos que es una vocal. Utilice letra.lower( ) para simplificar el código.
 
+## 7. Escriba un programa que pida 5 números reales y calcule las siguientes operaciones: El promedio,la mediana, promedio multiplicativo, calcule la potencia del mayor número al menor número y calcule la raíz del menor número.
+```python
+# Solicita al usuario ingresar 5 números reales
+numeros = []
+for i in range(5):
+    numero = float(input(f"Ingrese el número {i+1}: "))
+    numeros.append(numero)
 
+# Calcula el promedio
+promedio = sum(numeros) / len(numeros)
+
+# Calcula la mediana
+numeros_ordenados = sorted(numeros)
+if len(numeros_ordenados) % 2 == 0:
+    mediana = (numeros_ordenados[len(numeros_ordenados)//2 - 1] + numeros_ordenados[len(numeros_ordenados)//2]) / 2
+else:
+    mediana = numeros_ordenados[len(numeros_ordenados)//2]
+
+# Calcula el promedio multiplicativo
+producto = 1
+for numero in numeros:
+    producto *= numero
+promedio_multiplicativo = producto ** (1/len(numeros))
+
+# Ordena los números de forma ascendente y descendente
+numeros_ascendente = sorted(numeros)
+numeros_descendente = sorted(numeros, reverse=True)
+
+# Calcula la potencia del mayor número elevada al menor número
+mayor_numero = max(numeros)
+menor_numero = min(numeros)
+potencia = mayor_numero ** menor_numero
+
+# Calcula la raíz cúbica del menor número
+raiz_cubica = menor_numero ** (1/3)
+
+# Imprime los resultados
+print("Promedio:", promedio)
+print("Mediana:", mediana)
+print("Promedio multiplicativo:", promedio_multiplicativo)
+print("Números en orden ascendente:", numeros_ascendente)
+print("Números en orden descendente:", numeros_descendente)
+print("Potencia del mayor número elevada al menor número:", potencia)
+print("Raíz cúbica del menor número:", raiz_cubica)
+```
 
 
 
