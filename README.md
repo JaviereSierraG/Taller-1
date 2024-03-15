@@ -6,8 +6,6 @@ En este repositorio se documenta el desarrollo del primer taller realizado por J
 ![Texto alternativo](https://github.com/JaviereSierraG/Taller-1/blob/main/SCquiz.png)
 
 ## 2. Realice un programa que lea tres números reales y determine cuál es el mayor.
-### Contenido del Archivo
-
 ```python
 numero1 = float(input("Ingrese el primer número: "))
 numero2 = float(input("Ingrese el segundo número: "))
@@ -24,4 +22,4 @@ else:
 # Imprime el resultado
 print("El número mayor es:", mayor)
 
-
+Primero damos la entrada para los tres números como flotante y luego usamos las estructuras de control para describir las posibles relaciones y las salidas del código. 
