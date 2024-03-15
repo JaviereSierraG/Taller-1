@@ -134,20 +134,23 @@ Después de obtener los números, el código procede a realizar varios cálculos
 
 Promedio:
 Para calcular el promedio de los números ingresados, se utiliza la función sum() para sumar todos los números en la lista numeros, y luego se divide la suma por la cantidad de números en la lista (len(numeros)).
+
 Mediana:
 Para calcular la mediana, los números en la lista numeros se ordenan de forma ascendente utilizando la función sorted(). Luego, se verifica si la cantidad de números es par o impar, y se calcula la mediana en consecuencia.
-python.
+
+
 Promedio Multiplicativo:
 Para calcular el promedio multiplicativo, se inicializa una variable producto en 1 y se utiliza un bucle for para multiplicar todos los números en la lista numeros. Luego, se calcula el promedio multiplicativo elevando el producto a la potencia de 1 dividido por la cantidad de números en la lista.
+
 Ordenar los números:
 Para ordenar los números de forma ascendente y descendente, se utilizan las funciones sorted() con y sin el argumento reverse=True, respectivamente.
-python.
+
 Potencia del Mayor Número:
 Para calcular la potencia del mayor número elevada al menor número, se utilizan las funciones max() y min() para obtener el mayor y el menor número en la lista numeros. Luego, se eleva el mayor número a la potencia del menor número.
-python.
+
 Raíz Cúbica del Menor Número:
 Para calcular la raíz cúbica del menor número en la lista, se utiliza la operación de potenciación **(1/3).
-python
+
 Finalmente, se imprimen los resultados de todos estos cálculos.
 
 Este código proporciona una comprensión más clara de cómo se realizan los cálculos y qué partes del código se utilizan para cada paso específico.
