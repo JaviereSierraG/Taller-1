@@ -69,6 +69,19 @@ else:
 ```
 Empezamos creando las entradas de tipo flotante para los 3 números, luego utilizamos las estructuras del control con condiciones especificas para en cada caso arrojar la salida correcta, tuvimos en cuenta también una posible igualdad aunque no se mencionara en el ejercicio. Asi teniendo 3 posibles resultado mayor que, menor que e igual.
 
+## 6. Escriba un programa que solicite al usuario una letra y determine si es una vocal o una consonante.
+
+```python
+letra = str(input("Ingrese una letra: "))
+
+letra = letra.lower()
+
+if letra in ('a', 'e', 'i', 'o', 'u'):
+    print(letra, " es una vocal.")
+else:
+    print(letra, "es una consonante.")
+```
+Para este ejercicio utilizamos una entrada de tipo cadena para garantizar la naturalidad de la respuesta, asi mismo utilizamos las vocales para descartar el resto de letras, asi pues asegurandonos que la entrada no sea ninguna de las 5 vocales, garantizamos que sea una consonante, o en su caso contrario confirmamos que es una vocal. Utilice letra.lower( ) para simplificar el código.
 
 
 
