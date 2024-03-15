@@ -235,10 +235,30 @@ El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
 El tiempo que le tomaría al vehículo comercial más veloz recorrer la distancia.
 
 El tiempo que le tomaría a Bolt recorrer la distancia.
+```python
+# Definimos las velocidades en metros por segundo
+velocidad_luz = 299792458  # m/s
+velocidad_sonido = 343  # m/s (en el aire)
+velocidad_vehiculo_comercial = 97.2  # m/s (aprox. 350 km/h)
+velocidad_bolt = 12.42  # m/s (aprox. 44.72 km/h)
 
+# Solicitamos al usuario ingresar la distancia en metros
+distancia = float(input("Ingrese la distancia en metros: "))
 
+# Calculamos los tiempos en segundos
+tiempo_luz = distancia / velocidad_luz
+tiempo_sonido = distancia / velocidad_sonido
+tiempo_vehiculo_comercial = distancia / velocidad_vehiculo_comercial
+tiempo_bolt = distancia / velocidad_bolt
 
+# Imprimimos los resultados
+print("Tiempo que tomaría a la luz recorrer la distancia:", tiempo_luz, "segundos")
+print("Tiempo que tomaría al sonido recorrer la distancia:", tiempo_sonido, "segundos")
+print("Tiempo que tomaría al vehículo comercial más veloz recorrer la distancia:", tiempo_vehiculo_comercial, "segundos")
+print("Tiempo que tomaría a Usain Bolt recorrer la distancia:", tiempo_bolt, "segundos")
 
+```
+Aunque parecía complejo este ejercicio era bastante fácil, pues bastaba con conocer las velocidades de cada uno de los objetos descritos para luego dividir la distancia y así hallar los tiempos. 
 
 
 
