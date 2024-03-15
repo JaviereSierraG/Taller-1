@@ -25,3 +25,33 @@ print("El número mayor es:", mayor)
 
 
 Primero damos la entrada para los tres números como flotante y luego usamos las estructuras de control para describir las posibles relaciones y las salidas del código. 
+
+## 3. Realice un programa que lea un número enteros y determine si es par o impar. 
+
+```python
+#Notebook
+numero = float(input("Ingrese el número:"))
+
+if numero % 2 == 0:
+    print(numero, "es un número par")
+
+else:
+   print(numero, "es un número impar")
+```
+Primero creamos la entrada de tipo flotante para ingresar el número y luego usamos el módulo para conocer el residuo de la división del número entre 2 y asi determinar si es par o inpar.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
