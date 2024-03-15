@@ -226,7 +226,15 @@ print("La capital de", pais.capitalize(), "es:", capital)
 ```
 Desconociendo si existe una herramienta en linea que busque las capitales de los países, decidi realizar una lista con todos los países de latinoámerica y sus clases para luego en la entrada solicitar el nombre del país en miniscula y así se ejecute la lista para entregar la respuesta. 
 
+## 10. Escriba un programa que dada una distancia calcula:
 
+El tiempo que le tomaría a la luz recorrer la distancia.
+
+El tiempo que le tomaría al sonido (en el aire) recorrer la distancia.
+
+El tiempo que le tomaría al vehículo comercial más veloz recorrer la distancia.
+
+El tiempo que le tomaría a Bolt recorrer la distancia.
 
 
 
