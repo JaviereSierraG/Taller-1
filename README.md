@@ -2,7 +2,7 @@
 En este repositorio se documenta el desarrollo del primer taller realizado por Javier Sierra.
 ## Logo
 
-![Texto alternativo](https://github.com/JaviereSierraG/Taller-1/blob/main/SCquiz.png)
+![Texto alternativo](https://github.com/JaviereSierraG/Taller-1/blob/main/PYTHORQUE.png)
 
 ## 1.Desarrollo Quiz Python
 
