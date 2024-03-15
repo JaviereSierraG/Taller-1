@@ -128,29 +128,35 @@ print("Números en orden descendente:", numeros_descendente)
 print("Potencia del mayor número elevada al menor número:", potencia)
 print("Raíz cúbica del menor número:", raiz_cubica)
 ```
-Primero, se solicita al usuario ingresar los 5 números. Esto se logra mediante un bucle for que se ejecuta 5 veces, cada vez solicitando al usuario que ingrese un número real. Los números ingresados se almacenan en una lista llamada numeros.
+Este código en Python comienza solicitando al usuario ingresar 5 números reales. Para hacer esto, se utiliza un bucle for para iterar 5 veces, solicitando al usuario que ingrese cada número. Dentro del bucle, se utiliza la función input() para capturar la entrada del usuario, y luego se convierte a tipo float para garantizar que los números ingresados sean reales. Los números ingresados se agregan a una lista llamada numeros.
 
-Luego de obtener los números, se procede a realizar los siguientes cálculos:
+Después de obtener los números, el código procede a realizar varios cálculos:
 
 Promedio:
-Se calcula sumando todos los números en la lista y dividiendo la suma por la cantidad de números en la lista. Esto nos da el promedio de los números ingresados.
-
+Para calcular el promedio de los números ingresados, se utiliza la función sum() para sumar todos los números en la lista numeros, y luego se divide la suma por la cantidad de números en la lista (len(numeros)).
 Mediana:
-Los números se ordenan de forma ascendente y luego se determina si la cantidad de números es par o impar. Si es par, la mediana se calcula como el promedio de los dos números centrales. Si es impar, la mediana es simplemente el número central.
-
+Para calcular la mediana, los números en la lista numeros se ordenan de forma ascendente utilizando la función sorted(). Luego, se verifica si la cantidad de números es par o impar, y se calcula la mediana en consecuencia.
+python.
 Promedio Multiplicativo:
-Se multiplican todos los números en la lista y luego se calcula la raíz enésima del producto, donde n es la cantidad de números en la lista. Esto nos da el promedio multiplicativo de los números.
-
+Para calcular el promedio multiplicativo, se inicializa una variable producto en 1 y se utiliza un bucle for para multiplicar todos los números en la lista numeros. Luego, se calcula el promedio multiplicativo elevando el producto a la potencia de 1 dividido por la cantidad de números en la lista.
 Ordenar los números:
-Los números se ordenan de forma ascendente y descendente utilizando la función sorted(). Se obtienen dos listas: una en orden ascendente y otra en orden descendente.
-
+Para ordenar los números de forma ascendente y descendente, se utilizan las funciones sorted() con y sin el argumento reverse=True, respectivamente.
+python.
 Potencia del Mayor Número:
-Se determina el mayor y el menor número en la lista. Luego se eleva el mayor número a la potencia del menor número.
-
+Para calcular la potencia del mayor número elevada al menor número, se utilizan las funciones max() y min() para obtener el mayor y el menor número en la lista numeros. Luego, se eleva el mayor número a la potencia del menor número.
+python.
 Raíz Cúbica del Menor Número:
-Se calcula la raíz cúbica del menor número en la lista.
-
+Para calcular la raíz cúbica del menor número en la lista, se utiliza la operación de potenciación **(1/3).
+python
 Finalmente, se imprimen los resultados de todos estos cálculos.
+
+Este código proporciona una comprensión más clara de cómo se realizan los cálculos y qué partes del código se utilizan para cada paso específico.
+
+
+
+
+
+
 
 
 
