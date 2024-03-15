@@ -128,7 +128,29 @@ print("Números en orden descendente:", numeros_descendente)
 print("Potencia del mayor número elevada al menor número:", potencia)
 print("Raíz cúbica del menor número:", raiz_cubica)
 ```
+Primero, se solicita al usuario ingresar los 5 números. Esto se logra mediante un bucle for que se ejecuta 5 veces, cada vez solicitando al usuario que ingrese un número real. Los números ingresados se almacenan en una lista llamada numeros.
 
+Luego de obtener los números, se procede a realizar los siguientes cálculos:
+
+Promedio:
+Se calcula sumando todos los números en la lista y dividiendo la suma por la cantidad de números en la lista. Esto nos da el promedio de los números ingresados.
+
+Mediana:
+Los números se ordenan de forma ascendente y luego se determina si la cantidad de números es par o impar. Si es par, la mediana se calcula como el promedio de los dos números centrales. Si es impar, la mediana es simplemente el número central.
+
+Promedio Multiplicativo:
+Se multiplican todos los números en la lista y luego se calcula la raíz enésima del producto, donde n es la cantidad de números en la lista. Esto nos da el promedio multiplicativo de los números.
+
+Ordenar los números:
+Los números se ordenan de forma ascendente y descendente utilizando la función sorted(). Se obtienen dos listas: una en orden ascendente y otra en orden descendente.
+
+Potencia del Mayor Número:
+Se determina el mayor y el menor número en la lista. Luego se eleva el mayor número a la potencia del menor número.
+
+Raíz Cúbica del Menor Número:
+Se calcula la raíz cúbica del menor número en la lista.
+
+Finalmente, se imprimen los resultados de todos estos cálculos.
 
 
 
