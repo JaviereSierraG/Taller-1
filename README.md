@@ -177,10 +177,54 @@ else:
 ```
 Creamos la entrada como flotante especificando que debe ser una frecuencia en hertz, luego utilizando las sentencias de control creamos rangos entre los que puede variar esa frecuencia y así creando fronteras entre los distintos espectros de frecuencia podemos clasificarlas y conocer la parte del espectro en la que se encuentran. 
 
+## 9. Escriba un programa que reciba el nombre en minúsculas de un país de América y regrese la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado.
+```python
+#Notebook
+# Diccionario de capitales de países de América
+capitales_americas = {
+    "argentina": "Buenos Aires",
+    "bolivia": "La Paz",
+    "brasil": "Brasilia",
+    "canada": "Ottawa",
+    "chile": "Santiago",
+    "colombia": "Bogotá",
+    "costa rica": "San José",
+    "cuba": "La Habana",
+    "ecuador": "Quito",
+    "el salvador": "San Salvador",
+    "estados unidos": "Washington D.C.",
+    "guatemala": "Ciudad de Guatemala",
+    "honduras": "Tegucigalpa",
+    "mexico": "Ciudad de México",
+    "nicaragua": "Managua",
+    "panama": "Panamá",
+    "paraguay": "Asunción",
+    "peru": "Lima",
+    "uruguay": "Montevideo",
+    "venezuela": "Caracas",
+    "dominica": "Roseau",
+    "ecuador": "Quito",
+    "granada": "Saint George's",
+    "haiti": "Puerto Príncipe",
+    "jamaica": "Kingston",
+    "saint kitts and nevis": "Basseterre",
+    "saint lucia": "Castries",
+    "saint vincent and the grenadines": "Kingstown",
+    "suriname": "Paramaribo",
+    "trinidad and tobago": "Puerto España"
+}
 
+# Solicita al usuario ingresar el nombre de un país en minúsculas
+pais = input("Ingrese el nombre del país en minúsculas: ")
 
+# Busca la capital del país en el diccionario
+capital = capitales_americas.get(pais, "país no identificado")
 
+# Imprime la capital del país o un mensaje si no se encontró el país en el diccionario
+print("La capital de", pais.capitalize(), "es:", capital)
 
+```
+Desconociendo si existe una herramienta en linea que busque las capitales de los países, decidi realizar una lista con todos los países de latinoámerica y sus clases para luego en la entrada solicitar el nombre del país en miniscula y así se ejecute la lista para entregar la respuesta. 
 
 
 
