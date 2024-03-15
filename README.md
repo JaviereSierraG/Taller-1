@@ -24,4 +24,4 @@ print("El número mayor es:", mayor)
 ```
 
 
-##Primero damos la entrada para los tres números como flotante y luego usamos las estructuras de control para describir las posibles relaciones y las salidas del código. 
+Primero damos la entrada para los tres números como flotante y luego usamos las estructuras de control para describir las posibles relaciones y las salidas del código. 
