@@ -40,6 +40,19 @@ else:
 ```
 Primero creamos la entrada de tipo flotante para ingresar el número y luego usamos el módulo para conocer el residuo de la división del número entre 2 y asi determinar si es par o inpar.
 
+## 4. Realice un programa que lea dos números reales y determine si el primero es múltiplo.
+```python
+numero1 = float(input("Ingrese el primer número:"))
+numero2 = float(input("Ingrese el segundo número:"))
+
+if numero1 % numero2 == 0:
+  print(numero1, "es múltiplo del segundo número")
+
+else:
+  print(numero1,"no es múltiplo del segundo número")****
+```
+Creamos la entrada de tipo flotante para los dos número especificando su orden, nos volvemos a valer del módulo para conocer si la división del primer número entre el segundo deja algún residuo y así determinar si es múltiplo o no.
+
 
 
 
