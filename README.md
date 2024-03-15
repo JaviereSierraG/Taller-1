@@ -155,7 +155,27 @@ Finalmente, se imprimen los resultados de todos estos cálculos.
 
 Este código proporciona una comprensión más clara de cómo se realizan los cálculos y qué partes del código se utilizan para cada paso específico.
 
+## 8.Escriba un programa al que se le ingrese la frecuencia de una onda en hz y como salida arroje en que parte del espectro electromagnético se encuentra.
+```python
+# Solicita al usuario ingresar la frecuencia en Hz
+frecuencia = float(input("Ingrese la frecuencia en Hz: "))
 
+# Determina en qué parte del espectro electromagnético se encuentra la frecuencia
+if 3e23 < frecuencia < 3e25:
+    print("La frecuencia está en la parte de los rayos gamma.")
+elif 3e19 < frecuencia <= 3e23:
+    print("La frecuencia está en la parte de los rayos X.")
+elif 4.3e14 < frecuencia <= 3e19:
+    print("La frecuencia está en la parte de los rayos ultravioleta.")
+elif 7.5e11 < frecuencia <= 4.3e14:
+    print("La frecuencia está en la parte del espectro visible.")
+elif 3e9 < frecuencia <= 7.5e11:
+    print("La frecuencia está en la parte de las ondas de radio.")
+else:
+    print("La frecuencia está fuera del espectro electromagnético conocido.")
+
+```
+Creamos la entrada como flotante especificando que debe ser una frecuencia en hertz, luego utilizando las sentencias de control creamos rangos entre los que puede variar esa frecuencia y así creando fronteras entre los distintos espectros de frecuencia podemos clasificarlas y conocer la parte del espectro en la que se encuentran. 
 
 
 
